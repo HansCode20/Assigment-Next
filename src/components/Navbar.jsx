@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="bg-gray-800 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-xl font-bold">
-          <Link href="/makanan">Logo</Link>
+          <Link href="/makanan">ListFood</Link>
         </div>
         <div className="text-white">
           <Link href="/create">Buat Makanan</Link>

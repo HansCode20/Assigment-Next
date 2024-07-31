@@ -1,5 +1,6 @@
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
 
 const index = () => {
   const [foodName, setFoodMName] = useState("");
@@ -137,6 +138,11 @@ const index = () => {
           </div>
         </div>
         <div className="text-end mt-4 mr-4 justify-end">
+        <Link href="/makanan"> 
+          <button className="px-2 py-2 rounded-md bg-red-700 mr-4">
+            Cancel
+          </button>
+        </Link>
           <button
             className="px-2 py-2 rounded-md bg-green-700"
             onClick={validateInput}
